@@ -1,4 +1,4 @@
-# ModulosArduino
-Este repositorio contiene modulos de programación para robots moviles diferenciales basados e Arduino, desarrollados en un principio por ConceRobots y Lizard Robotics.
-Basta con copiar el modulo dentro del codigo de Arduino y hacer referencia de el dentro de void loop().
-Ademas voy a incluir modulos para sensores y otros.
+# Arduino Modules
+This repository contains software modules for differential and Arduino -based mobile robots , developed initially by Lizard ConceRobots and Robotics .
+You just have to copy the code module inside the Arduino and reference it in void loop () .
+Soon I intend to include other modules for sensors and others.
