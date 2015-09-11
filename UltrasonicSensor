@@ -1,0 +1,18 @@
+//Ultrasonic sensor for Arduino
+// For this function you need to define some constants and varibles
+#define pin_trig 3
+#define pin_ech 4
+int tiempo = 0;
+int distancia = 0;
+
+void distance()
+{
+    digitalWrite(pin_trig,LOW); 
+    delayMicroseconds(5);
+    digitalWrite(pin_trig, HIGH);
+    delayMicroseconds(10);
+    tiempo = pulseIn(pin_eco, HIGH);
+    distancia= 0.017*tiempo;
+    Serial.println(distancia);
+    delay(10);
+}
